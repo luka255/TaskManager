@@ -1,0 +1,7 @@
+spring:
+  config:
+    activate:
+      on-profile: default
+    additional-location:
+      - optional:file:/etc/taskmanager/
+      - optional:classpath:myconfig.properties
